@@ -12,6 +12,8 @@ target 'netinfo_test_react_native' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
   target 'netinfo_test_react_nativeTests' do
     inherit! :complete
     # Pods for testing
